@@ -1,0 +1,1 @@
+This project has been specially prepared for the company of SIRTSAN (sirtsan.com). The processes and design in it are completely created in line with the wishes and needs of the user. The main purpose of the project is to control the bills of the customers and suppliers while controlling the goods in and out of the SIRTSAN factory, and to save them as a pdf if necessary.
