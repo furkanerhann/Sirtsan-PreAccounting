@@ -208,8 +208,8 @@
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = Color.AliceBlue;
             dataGridViewCellStyle1.ForeColor = Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = Color.DeepSkyBlue;
-            dataGridViewCellStyle1.SelectionForeColor = Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = Color.AliceBlue;
+            dataGridViewCellStyle1.SelectionForeColor = Color.Red;
             dataview.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataview.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataview.BackgroundColor = Color.AliceBlue;
@@ -246,8 +246,8 @@
             dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle5.BackColor = Color.AliceBlue;
             dataGridViewCellStyle5.ForeColor = Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = Color.DeepSkyBlue;
-            dataGridViewCellStyle5.SelectionForeColor = Color.Black;
+            dataGridViewCellStyle5.SelectionBackColor = Color.AliceBlue;
+            dataGridViewCellStyle5.SelectionForeColor = Color.Red;
             dataview.RowsDefaultCellStyle = dataGridViewCellStyle5;
             dataview.RowTemplate.Height = 25;
             dataview.Size = new Size(822, 584);
