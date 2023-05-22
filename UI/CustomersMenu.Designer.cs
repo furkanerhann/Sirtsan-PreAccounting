@@ -39,7 +39,7 @@
             btn_close = new Button();
             btn_maximize = new Button();
             btn_minimize = new Button();
-            lbl_sirtsan = new Label();
+            pictureBox1 = new PictureBox();
             MainPanel = new TableLayoutPanel();
             MainDownPanel = new TableLayoutPanel();
             dataview = new DataGridView();
@@ -62,6 +62,7 @@
             cbox_balance = new ComboBox();
             FormPanel.SuspendLayout();
             FormMenuPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             MainPanel.SuspendLayout();
             MainDownPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataview).BeginInit();
@@ -97,7 +98,7 @@
             FormMenuPanel.Controls.Add(btn_close, 4, 0);
             FormMenuPanel.Controls.Add(btn_maximize, 3, 0);
             FormMenuPanel.Controls.Add(btn_minimize, 2, 0);
-            FormMenuPanel.Controls.Add(lbl_sirtsan, 1, 0);
+            FormMenuPanel.Controls.Add(pictureBox1, 1, 0);
             FormMenuPanel.Dock = DockStyle.Fill;
             FormMenuPanel.Location = new Point(3, 3);
             FormMenuPanel.Name = "FormMenuPanel";
@@ -151,17 +152,16 @@
             btn_minimize.UseVisualStyleBackColor = true;
             btn_minimize.Click += btn_minimize_Click;
             // 
-            // lbl_sirtsan
+            // pictureBox1
             // 
-            lbl_sirtsan.Anchor = AnchorStyles.Bottom;
-            lbl_sirtsan.AutoSize = true;
-            lbl_sirtsan.Font = new Font("Franklin Gothic Medium Cond", 22F, FontStyle.Regular, GraphicsUnit.Point);
-            lbl_sirtsan.ForeColor = Color.AliceBlue;
-            lbl_sirtsan.Location = new Point(529, 16);
-            lbl_sirtsan.Name = "lbl_sirtsan";
-            lbl_sirtsan.Size = new Size(376, 38);
-            lbl_sirtsan.TabIndex = 6;
-            lbl_sirtsan.Text = "SIRTSAN MUHASEBE PROGRAMI";
+            pictureBox1.Anchor = AnchorStyles.Bottom;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(586, 3);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(261, 48);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 6;
+            pictureBox1.TabStop = false;
             // 
             // MainPanel
             // 
@@ -558,7 +558,7 @@
             Load += CustomersMenu_Load;
             FormPanel.ResumeLayout(false);
             FormMenuPanel.ResumeLayout(false);
-            FormMenuPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             MainPanel.ResumeLayout(false);
             MainDownPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataview).EndInit();
@@ -577,7 +577,6 @@
         private Button btn_close;
         private Button btn_maximize;
         private Button btn_minimize;
-        private Label lbl_sirtsan;
         private TableLayoutPanel MainPanel;
         private TableLayoutPanel MainDownPanel;
         private DataGridView dataview;
@@ -598,5 +597,6 @@
         private TextBox tbox_customername;
         private ComboBox cbox_custoemrtype;
         private ComboBox cbox_customercurrency;
+        private PictureBox pictureBox1;
     }
 }
