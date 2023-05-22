@@ -60,6 +60,7 @@
             FormPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 20F));
             FormPanel.Controls.Add(FormMenuPanel, 0, 0);
             FormPanel.Controls.Add(MainPanel, 0, 1);
+            FormPanel.Dock = DockStyle.Fill;
             FormPanel.Location = new Point(0, 0);
             FormPanel.Name = "FormPanel";
             FormPanel.RowCount = 2;
@@ -315,10 +316,10 @@
             AcceptButton = btn_login;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(6, 57, 112);
+            BackColor = Color.Black;
             ClientSize = new Size(1440, 810);
             Controls.Add(FormPanel);
-            ForeColor = Color.FromArgb(51, 154, 240);
+            ForeColor = Color.Red;
             FormBorderStyle = FormBorderStyle.None;
             Name = "Login";
             StartPosition = FormStartPosition.CenterScreen;

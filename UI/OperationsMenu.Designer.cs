@@ -225,7 +225,7 @@
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = Color.Black;
             dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = Color.FromArgb(51, 154, 240);
+            dataGridViewCellStyle3.ForeColor = Color.Red;
             dataGridViewCellStyle3.SelectionBackColor = Color.Black;
             dataGridViewCellStyle3.SelectionForeColor = Color.White;
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
@@ -620,10 +620,10 @@
             AcceptButton = btn_operation;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(6, 57, 112);
+            BackColor = Color.Black;
             ClientSize = new Size(1440, 810);
             Controls.Add(FormPanel);
-            ForeColor = Color.FromArgb(51, 154, 240);
+            ForeColor = Color.Red;
             FormBorderStyle = FormBorderStyle.None;
             Name = "OperationsMenu";
             StartPosition = FormStartPosition.CenterScreen;
